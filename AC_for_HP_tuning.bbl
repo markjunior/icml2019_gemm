@@ -1,0 +1,288 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[BLA(2002)]{BLAS2002}
+An updated set of basic linear algebra subprograms (blas).
+\newblock \emph{ACM Trans. Math. Softw.}, 28\penalty0 (2):\penalty0 135--151,
+  June 2002.
+\newblock ISSN 0098-3500.
+\newblock \doi{10.1145/567806.567807}.
+\newblock URL \url{http://doi.acm.org/10.1145/567806.567807}.
+
+\bibitem[Bellman(1961)]{bellman2015adaptive}
+Bellman, R.~E.
+\newblock \emph{Adaptive control processes: a guided tour}.
+\newblock Princeton university press, 1961.
+
+\bibitem[Bello et~al.(2017)Bello, Zoph, Vasudevan, and Le]{bello2017neural}
+Bello, I., Zoph, B., Vasudevan, V., and Le, Q.~V.
+\newblock Neural optimizer search with reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:1709.07417}, 2017.
+
+\bibitem[Bergstra \& Bengio(2012)Bergstra and Bengio]{bergstra2012random}
+Bergstra, J. and Bengio, Y.
+\newblock Random search for hyper-parameter optimization.
+\newblock \emph{Journal of Machine Learning Research}, 13\penalty0
+  (Feb):\penalty0 281--305, 2012.
+
+\bibitem[Bergstra et~al.(2011)Bergstra, Bardenet, Bengio, and
+  K{\'e}gl]{bergstra2011algorithms}
+Bergstra, J.~S., Bardenet, R., Bengio, Y., and K{\'e}gl, B.
+\newblock Algorithms for hyper-parameter optimization.
+\newblock In \emph{Advances in neural information processing systems}, pp.\
+  2546--2554, 2011.
+
+\bibitem[Bhatnagar et~al.(2009)Bhatnagar, Sutton, Ghavamzadeh, and
+  Lee]{bhatnagar2009natural}
+Bhatnagar, S., Sutton, R.~S., Ghavamzadeh, M., and Lee, M.
+\newblock Natural actor--critic algorithms.
+\newblock \emph{Automatica}, 45\penalty0 (11):\penalty0 2471--2482, 2009.
+
+\bibitem[Bosman et~al.(2007)Bosman, Grahl, and Thierens]{bosman2007adapted}
+Bosman, P. A.~N., Grahl, J., and Thierens, D.
+\newblock Adapted maximum-likelihood gaussian models for numerical optimization
+  with continuous edas.
+\newblock \emph{Software Engineering [SEN]}, \penalty0 (E0704), 2007.
+
+\bibitem[Chen \& Guestrin(2016)Chen and Guestrin]{chen2016xgboost}
+Chen, T. and Guestrin, C.
+\newblock Xgboost: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd acm sigkdd international conference
+  on knowledge discovery and data mining}, pp.\  785--794. ACM, 2016.
+
+\bibitem[Chen et~al.(2018{\natexlab{a}})Chen, Moreau, Jiang, Shen, Yan, Wang,
+  Hu, Ceze, Guestrin, and Krishnamurthy]{Chen18}
+Chen, T., Moreau, T., Jiang, Z., Shen, H., Yan, E.~Q., Wang, L., Hu, Y., Ceze,
+  L., Guestrin, C., and Krishnamurthy, A.
+\newblock {TVM:} end-to-end optimization stack for deep learning.
+\newblock 2018{\natexlab{a}}.
+\newblock URL \url{http://arxiv.org/abs/1802.04799}.
+
+\bibitem[Chen et~al.(2018{\natexlab{b}})Chen, Zheng, Yan, Jiang, Moreau, Ceze,
+  Guestrin, and Krishnamurthy]{Tianqi2018}
+Chen, T., Zheng, L., Yan, E.~Q., Jiang, Z., Moreau, T., Ceze, L., Guestrin, C.,
+  and Krishnamurthy, A.
+\newblock Learning to optimize tensor programs.
+\newblock 2018{\natexlab{b}}.
+\newblock URL \url{http://arxiv.org/abs/1805.08166}.
+
+\bibitem[Chetlur et~al.(2014)Chetlur, Woolley, Vandermersch, Cohen, Tran,
+  Catanzaro, and Shelhamer]{chetlur2014cudnn}
+Chetlur, S., Woolley, C., Vandermersch, P., Cohen, J., Tran, J., Catanzaro, B.,
+  and Shelhamer, E.
+\newblock cudnn: Efficient primitives for deep learning.
+\newblock \emph{arXiv preprint arXiv:1410.0759}, 2014.
+
+\bibitem[Das et~al.(2016)Das, Avancha, Mudigere, Vaidynathan, Sridharan,
+  Kalamkar, Kaul, and Dubey]{das2016distributed}
+Das, D., Avancha, S., Mudigere, D., Vaidynathan, K., Sridharan, S., Kalamkar,
+  D., Kaul, B., and Dubey, P.
+\newblock Distributed deep learning using synchronous stochastic gradient
+  descent.
+\newblock \emph{arXiv preprint arXiv:1602.06709}, 2016.
+
+\bibitem[Dukhan(2016)]{dukhan2016nnpack}
+Dukhan, M.
+\newblock Nnpack, 2016.
+
+\bibitem[Goldberg(1989)]{Goldberg1989}
+Goldberg, D.~E.
+\newblock \emph{Genetic Algorithms in Search, Optimization and Machine
+  Learning}.
+\newblock Addison-Wesley Longman Publishing Co., 1989.
+
+\bibitem[Hansen \& Ostermeier(2001)Hansen and Ostermeier]{hansen2001completely}
+Hansen, N. and Ostermeier, A.
+\newblock Completely derandomized self-adaptation in evolution strategies.
+\newblock \emph{Evolutionary computation}, 9\penalty0 (2):\penalty0 159--195,
+  2001.
+
+\bibitem[He et~al.(2015)He, Zhang, Ren, and Sun]{He15}
+He, K., Zhang, X., Ren, S., and Sun, J.
+\newblock Deep residual learning for image recognition.
+\newblock In \emph{arXiv prepring arXiv:1506.01497}, 2015.
+
+\bibitem[Hinton(2012)]{hinton2012practical}
+Hinton, G.~E.
+\newblock A practical guide to training restricted boltzmann machines.
+\newblock In \emph{Neural networks: Tricks of the trade}, pp.\  599--619.
+  Springer, 2012.
+
+\bibitem[Hoffman \& Shahriari(2014)Hoffman and Shahriari]{hoffman2014modular}
+Hoffman, M.~W. and Shahriari, B.
+\newblock Modular mechanisms for bayesian optimization.
+\newblock In \emph{NIPS Workshop on Bayesian Optimization}, pp.\  1--5.
+  Citeseer, 2014.
+
+\bibitem[Holland(1975)]{Holland1975}
+Holland, J.~H.
+\newblock \emph{Adaptation in Natural and Artificial Systems}.
+\newblock The University of Michigan Press, 1975.
+
+\bibitem[Hutter et~al.(2011)Hutter, Hoos, and
+  Leyton-Brown]{hutter2011sequential}
+Hutter, F., Hoos, H.~H., and Leyton-Brown, K.
+\newblock Sequential model-based optimization for general algorithm
+  configuration.
+\newblock In \emph{International Conference on Learning and Intelligent
+  Optimization}, pp.\  507--523. Springer, 2011.
+
+\bibitem[Jia(2014)]{Jia14}
+Jia, Y.
+\newblock \emph{Learning Semantic Image Representations at a Large Scale}.
+\newblock PhD thesis, Univ. of California at Berkeley, Berkely, Calif., 2014.
+
+\bibitem[Kandasamy et~al.(2018)Kandasamy, Neiswanger, Schneider, Poczos, and
+  Xing]{kandasamy2018neural}
+Kandasamy, K., Neiswanger, W., Schneider, J., Poczos, B., and Xing, E.
+\newblock Neural architecture search with bayesian optimisation and optimal
+  transport.
+\newblock \emph{arXiv preprint arXiv:1802.07191}, 2018.
+
+\bibitem[Kennedy et~al.(2001)Kennedy, Eberhart, and Shi]{kennedy2001swarm}
+Kennedy, J., Eberhart, R.~C., and Shi, Y.
+\newblock Swarm intelligence. 2001.
+\newblock \emph{Kaufmann, San Francisco}, 1:\penalty0 700--720, 2001.
+
+\bibitem[Larochelle et~al.(2007)Larochelle, Erhan, Courville, Bergstra, and
+  Bengio]{larochelle2007empirical}
+Larochelle, H., Erhan, D., Courville, A., Bergstra, J., and Bengio, Y.
+\newblock An empirical evaluation of deep architectures on problems with many
+  factors of variation.
+\newblock In \emph{Proceedings of the 24th international conference on Machine
+  learning}, pp.\  473--480. ACM, 2007.
+
+\bibitem[Larra{\~n}aga \& Lozano(2001)Larra{\~n}aga and
+  Lozano]{larranaga2001estimation}
+Larra{\~n}aga, P. and Lozano, J.~A.
+\newblock \emph{Estimation of distribution algorithms: A new tool for
+  evolutionary computation}, volume~2.
+\newblock Springer Science \& Business Media, 2001.
+
+\bibitem[Leary \& Wang(2017)Leary and Wang]{leary2017xla}
+Leary, C. and Wang, T.
+\newblock Xla: Tensorflow, compiled.
+\newblock \emph{TensorFlow Dev Summit}, 2017.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{lecun2015deep}
+LeCun, Y., Bengio, Y., and Hinton, G.
+\newblock Deep learning.
+\newblock \emph{nature}, 521\penalty0 (7553):\penalty0 436, 2015.
+
+\bibitem[LeCun et~al.(2012)LeCun, Bottou, Orr, and
+  M{\"u}ller]{lecun2012efficient}
+LeCun, Y.~A., Bottou, L., Orr, G.~B., and M{\"u}ller, K.-R.
+\newblock Efficient backprop.
+\newblock In \emph{Neural networks: Tricks of the trade}, pp.\  9--48.
+  Springer, 2012.
+
+\bibitem[Loshchilov \& Hutter(2016)Loshchilov and Hutter]{LoshchilovH16}
+Loshchilov, I. and Hutter, F.
+\newblock {CMA-ES} for hyperparameter optimization of deep neural networks.
+\newblock \emph{CoRR}, abs/1604.07269, 2016.
+\newblock URL \url{http://arxiv.org/abs/1604.07269}.
+
+\bibitem[Matthes et~al.(2017)Matthes, Widera, Zenker, Worpitz, Huebl, and
+  Bussmann]{Matthes17}
+Matthes, A., Widera, R., Zenker, E., Worpitz, B., Huebl, A., and Bussmann, M.
+\newblock Tuning and optimization for a variety of many-core architectures
+  without changing a single line of implementation code using the alpaka
+  library.
+\newblock Technical report, https://arxiv.org/abs/1706.10086, 2017.
+
+\bibitem[Mirhoseini et~al.(2017)Mirhoseini, Pham, Le, Steiner, Larsen, Zhou,
+  Kumar, Norouzi, Bengio, and Dean]{mirhoseini2017device}
+Mirhoseini, A., Pham, H., Le, Q.~V., Steiner, B., Larsen, R., Zhou, Y., Kumar,
+  N., Norouzi, M., Bengio, S., and Dean, J.
+\newblock Device placement optimization with reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:1706.04972}, 2017.
+
+\bibitem[NNVM(2017)]{nnvm2017}
+NNVM.
+\newblock Nnvm compiler: Open compiler for ai frameworks.
+\newblock 2017.
+\newblock URL
+  \url{http://tvmlang.org/2017/10/06/nnvm-compiler-announcement.html}.
+
+\bibitem[Pham et~al.(2018)Pham, Guan, Zoph, Le, and Dean]{pham2018efficient}
+Pham, H., Guan, M.~Y., Zoph, B., Le, Q.~V., and Dean, J.
+\newblock Efficient neural architecture search via parameter sharing.
+\newblock \emph{arXiv preprint arXiv:1802.03268}, 2018.
+
+\bibitem[Ragan-Kelley et~al.(2013)Ragan-Kelley, Barnes, Adams, Paris, Durand,
+  and Amarasinghe]{ragan2013halide}
+Ragan-Kelley, J., Barnes, C., Adams, A., Paris, S., Durand, F., and
+  Amarasinghe, S.
+\newblock Halide: a language and compiler for optimizing parallelism, locality,
+  and recomputation in image processing pipelines.
+\newblock \emph{ACM SIGPLAN Notices}, 48\penalty0 (6):\penalty0 519--530, 2013.
+
+\bibitem[Ramachandran et~al.(2018)Ramachandran, Zoph, and
+  Le]{ramachandran2018searching}
+Ramachandran, P., Zoph, B., and Le, Q.~V.
+\newblock Searching for activation functions.
+\newblock 2018.
+
+\bibitem[Rechenberg \& Eigen(1973)Rechenberg and
+  Eigen]{rechenberg1994evolutionsstrategie}
+Rechenberg, I. and Eigen, M.
+\newblock Evolutionsstrategie: Optimierung technischer systeme nach prinzipien
+  der biologischen evolution.
+\newblock \emph{Frommann-Holzboog Verlag, Stuttgart}, 1973.
+
+\bibitem[Schwefel(1977)]{schwefel1977numerische}
+Schwefel, H.-P.
+\newblock \emph{Numerische Optimierung von Computer-Modellen mittels der
+  Evolutionsstrategie: mit einer vergleichenden Einf{\"u}hrung in die
+  Hill-Climbing-und Zufallsstrategie}.
+\newblock Birkh{\"a}user, 1977.
+
+\bibitem[Snoek et~al.(2012)Snoek, Larochelle, and Adams]{snoek2012practical}
+Snoek, J., Larochelle, H., and Adams, R.~P.
+\newblock Practical bayesian optimization of machine learning algorithms.
+\newblock In \emph{Advances in neural information processing systems}, pp.\
+  2951--2959, 2012.
+
+\bibitem[Storn \& Price(1997)Storn and Price]{Storn1997}
+Storn, R. and Price, K.
+\newblock Differential evolution -- a simple and efficient heuristic for global
+  optimization over continuous spaces.
+\newblock \emph{Journal of Global Optimization}, 11\penalty0 (4):\penalty0
+  341--359, Dec 1997.
+\newblock ISSN 1573-2916.
+\newblock \doi{10.1023/A:1008202821328}.
+\newblock URL \url{https://doi.org/10.1023/A:1008202821328}.
+
+\bibitem[Truong et~al.(2016)Truong, Barik, Totoni, Liu, Markley, Fox, and
+  Shpeisman]{truong2016latte}
+Truong, L., Barik, R., Totoni, E., Liu, H., Markley, C., Fox, A., and
+  Shpeisman, T.
+\newblock Latte: a language, compiler, and runtime for elegant and efficient
+  deep neural networks.
+\newblock \emph{ACM SIGPLAN Notices}, 51\penalty0 (6):\penalty0 209--223, 2016.
+
+\bibitem[Warden(2015)]{Warden15}
+Warden, P.
+\newblock Why gemm is at the heart of deep learning?
+\newblock
+  https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/,
+  2015.
+
+\bibitem[Wierstra et~al.(2014)Wierstra, Schaul, Glasmachers, Sun, Peters, and
+  Schmidhuber]{wierstra2014natural}
+Wierstra, D., Schaul, T., Glasmachers, T., Sun, Y., Peters, J., and
+  Schmidhuber, J.
+\newblock Natural evolution strategies.
+\newblock \emph{The Journal of Machine Learning Research}, 15\penalty0
+  (1):\penalty0 949--980, 2014.
+
+\bibitem[Zoph \& Le(2016)Zoph and Le]{zoph2016neural}
+Zoph, B. and Le, Q.~V.
+\newblock Neural architecture search with reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:1611.01578}, 2016.
+
+\end{thebibliography}

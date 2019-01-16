@@ -1,0 +1,121 @@
+\documentclass{article}
+\usepackage{microtype}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{algorithm}
+%\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{amsmath, amssymb, mathrsfs}
+\frenchspacing
+\setlength{\pdfpagewidth}{8.5in}
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{icml2019}
+%\usepackage[accepted]{icml2019}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proof}{Proof}
+
+%\SetKwInOut{Initialization}{Initialization}
+
+
+\setlength{\pdfpageheight}{11in}
+%\pdfinfo{
+%/Title (Insert Your Title Here)
+%/Author (Put All Your Authors Here, Separated by Commas)}
+%\setcounter{secnumdepth}{0}
+\begin{document}
+% The file aaai.sty is the style file for AAAI Press
+% proceedings, working notes, and technical reports.
+%
+\twocolumn[
+\icmltitle{Compiler-Level Matrix Multiplication Optimization for Deep Learning}
+
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2019
+% package.
+
+% List of affiliations: The first argument should be a (short)
+% identifier you will use later to specify author affiliations
+% Academic affiliations should list Department, University, City, Region, Country
+% Industry affiliations should list Company, City, Region, Country
+
+% You can specify symbols, otherwise they are numbered in order.
+% Ideally, you should not use this facility. Affiliations will be numbered
+% in order of appearance and this is the preferred way.
+
+
+\begin{icmlauthorlist}
+\icmlauthor{Huaqing Zhang}{petuum}
+\icmlauthor{Xiaolin Cheng}{huawei}
+\icmlauthor{Hui Zang}{huawei}
+\icmlauthor{Dae Hoon Park}{huawei}
+\end{icmlauthorlist}
+
+\icmlaffiliation{petuum}{Petuum, Inc, Sunnyvale, CA, USA}
+\icmlaffiliation{huawei}{Huawei Research, Santa Clara, CA, USA}
+
+\icmlcorrespondingauthor{Huaqing Zhang}{huaqing.zhang@petuum.com}
+\icmlcorrespondingauthor{Hui Zang}{hui.zang@huawei.com}
+
+% You may provide any keywords that you
+% find helpful for describing your paper; these are used to populate
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{Machine Learning, ICML}
+
+\vskip 0.3in
+]
+
+\printAffiliationsAndNotice{\icmlEqualContribution}
+%\author{Huaqing Zhang, Xiaolin Cheng, Hui Zang, Dae Hoon Park\\
+%Huawei Research, USA.\\
+%}
+%\maketitle
+
+\begin{abstract}
+As an important linear algebra routine, GEneral Matrix Multiplication (GEMM) is considered a fundamental operator in deep learning. Compilers need to translate these routines into low-level code optimized for specific hardware. Compiler-level optimization of GEMM has significant performance impact on training and executing deep learning models. However, current deep learning frameworks rely on hardware-specific operator libraries in which GEMM optimization has been mostly achieved by manual tuning, restricting the performance of deep learning frameworks on different target hardware. In this paper, we propose two novel algorithms for GEMM optimization based on the TVM framework. The Greedy Best First Search (G-BFS) guided method is a lightweight method based on search. The Neighborhood Actor Advantage Critic (N-A2C) method is based on reinforcement learning. Experimental results show significant performance improvement of both approaches over state-of-the-art optimization methods, in terms of computation time and the fraction of space explored. The proposed approaches have potential to be applied for other operator-level optimization.
+\end{abstract}
+
+
+\section{Introduction}
+\input{1_Introduction/introduction.tex}
+\input{2_Related_Works/related_works.tex}
+
+
+
+\section{Problem Statement}
+\input{3_GEMM_backgrounds/problem_statement.tex}
+\input{3_GEMM_backgrounds/problem_formula.tex}
+
+\section{Methodology}
+\input{4_Method/method.tex}
+
+\section{Experimental Results}
+\input{5_Simu/simu.tex}
+
+
+
+\section{Conclusion}
+In this paper, we propose a Greedy Best First Search guided (G-BFS) method and a Neighborhood Actor Advantage Critic (N-A2C) method for compiler-level GEMM optimization, taking advantage of performance of neighborhood configurations. The G-BFS method, though being lightweight, have shown strength of stable performance; and the N-A2C method performs better for large matrices. Empirical results show that both methods achieve significant performance improvement over  state-of-the-art tuning methods such as those using XGBoost and RNN controller. Both methods are general in the sense that they are applicable to other compiler-level tuning tasks and can be used for optimization of other tensor operators with large configuration space.
+
+{
+\begin{spacing}{0.92}
+\footnotesize
+\bibliographystyle{icml2019}
+\bibliography{icml}
+\end{spacing}
+}
+
+\end{document}
